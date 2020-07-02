@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Navbar, NavbarBrand} from 'reactstrap';
 
 class Homes extends Component {
   constructor(props) {
@@ -21,13 +22,19 @@ class Homes extends Component {
 
   render() {
     return (
+      <React.Fragment>
       <div>
+      <Navbar dark sticky="top" expand="md">
+          <div className="container">
+                <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/bs2.png" height="90" width="95" alt="logo" />Business Standard | Business Intelligence</NavbarBrand>
+             </div>
+    </Navbar>
         <div 
           className="b1"
           onMouseEnter={this.handleMouseHover}
           onMouseLeave={this.handleMouseHover}
         >
-          Business Standard
+         Business Standard
         </div>
         {
           this.state.isHovering &&
@@ -53,6 +60,7 @@ class Homes extends Component {
           </div>
         }
       </div>
+      </React.Fragment>
     );
   }
 }

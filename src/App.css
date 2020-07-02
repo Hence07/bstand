@@ -1,7 +1,7 @@
 
 
 body{
-background-image: url(./components/Assests/Images/bs9.jpg);
+background-image: url(./components/Assets/Images/bs9.jpg);
 background-size: cover; 
 background-repeat: no-repeat;
 }
@@ -13,8 +13,49 @@ background-repeat: no-repeat;
   font-size: 180%;
   font-weight: 200;
 }
-.b1:hover{
-  
 
+.navbar{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
   
+}
+
+
+.bs-example{
+  margin: 70px
+}
+
+.navbar-dark{
+  background-color: slategray;
+  
+}
+
+html, body, #container, .carousel {
+	height:100%;
+	margin: 0;
+	width: 100%;
+}
+
+
+
+.image-slide {
+	height: 100%;
+	width: 100%;
+	transition: background-image .3s ease-in-out;
+}
+
+.slide-arrow {
+	color: tan;
+	cursor: pointer;
+	font-size: 2rem;
+	position: fixed;
+	top: 50%;
+}
+
+.slide-arrow.right {
+	right: 1rem;
+}
+
+.slide-arrow.left {
+	left: 1rem;
 }
