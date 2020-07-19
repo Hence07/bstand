@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route} from 'react-router-dom';
+import { Switch, Redirect, Route} from 'react-router-dom';
 import Nav from './NavbarComponent'
 import Products from './Products';
 import Contact from './ContactComponent';
@@ -30,6 +30,7 @@ class Main extends Component {
 					<Route path="/home" component={HomePage} />
 					<Route exact path="/products" component={Products} />
 					<Route exact path="/contact" component={Contact} />
+					<Redirect to="/home" /> 
 				</Switch>
 				
 				<Footer />
