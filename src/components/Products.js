@@ -9,7 +9,7 @@ class Products extends React.Component{
                 <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="./Images/bs01.png"
+                    src="./Images/bs001.png"
                     alt="first slide"
                 />
                 <Carousel.Caption>
@@ -20,7 +20,7 @@ class Products extends React.Component{
                 <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="./Images/bs5.png"
+                    src="./Images/bs7.png"
                     alt="Second slide"
                 />
             
@@ -32,7 +32,7 @@ class Products extends React.Component{
                 <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="./Images/bs02.png"
+                    src="./Images/bs002.png"
                     alt="Third slide"
                 />
             
